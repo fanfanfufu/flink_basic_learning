@@ -34,7 +34,7 @@ under the License.
 		<scala.binary.version>2.12</scala.binary.version>
 		<maven.compiler.source>${target.java.version}</maven.compiler.source>
 		<maven.compiler.target>${target.java.version}</maven.compiler.target>
-		<log4j.version>2.17.1</log4j.version>
+		<log4j.version>2.17.2</log4j.version>
 	</properties>
 
 	<repositories>
@@ -68,6 +68,26 @@ under the License.
 		</dependency>
 
 		<!-- Add connector dependencies here. They must be in the default scope (compile). -->
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-connector-files</artifactId>
+			<version>${flink.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-connector-jdbc</artifactId>
+			<version>${flink.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-connector-kafka</artifactId>
+			<version>${flink.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-json</artifactId>
+			<version>${flink.version}</version>
+		</dependency>
 
 		<!-- Example:
 

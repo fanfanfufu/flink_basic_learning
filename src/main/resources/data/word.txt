@@ -1,0 +1,5 @@
+this is the file which used to learn the flink file source
+hello world
+hello flink
+hello file source
+this is the end line of file
